@@ -1,0 +1,15 @@
+{
+  "title": "Give me something awesome",
+  "description": "Fill in the descriptions",
+  "url": "https://projects.nj.com",
+  "keywords": "project, data viz, data vis, data visualization, graphics, nj.com, nj, New Jersey, N.J., ",
+  "imgFacebook": "https://projects.nj.com/investigations/for-a-girl/assets/images/og_img.jpg",
+  "imgTwitter": "https://projects.nj.com/investigations/for-a-girl/assets/images/og_img.jpg",
+  "author": {
+    "name": "Yan Wu",
+    "url": "https://twitter.com/njdotcom",
+    "twitterHandle": "@njdotcom"
+  },
+  "fbAppId": "260660257946158",
+  "analytics": "UA-116555959-1"
+}

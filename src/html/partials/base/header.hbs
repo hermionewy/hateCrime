@@ -1,0 +1,25 @@
+<header>
+    <div id="header_bar">
+        <a href="https://projects.nj.com/" target="_blank">
+            <span class="logo">
+                <img class="uof_img" src="./assets/images/logo.jpg">
+            </span>
+        </a>
+        <span class="social_span">
+            <a target="_blank" href="mailto:?subject=‘Good … for a girl’: Sexual harassment pervades N.J.’s music scene&body=Sexual harassment pervades New Jersey's local music scene. Hear these six women's stories. https://nj.com/foragirl">
+                <span class="social_logo">@@include('mail.svg')</span>
+            </a>
+            <a id="shareBtn_fb" target="_blank" class="facebook-share-button" href=''>
+                <span class="social_logo">@@include('facebook.svg')</span>
+            </a>
+            <a class="twitter-share-button" target="_blank" href="https://twitter.com/intent/tweet?url=https://nj.com/foragirl&text=Sexual%20harassment%20pervades%20New%20Jersey%27s%20local%20music%20scene.%20Hear%20these%20six%20women%27s%20stories." data-size="large">
+                <span class="social_logo">@@include('twitter.svg')</span>
+            </a>
+        </span>
+    </div>
+    <script>
+        document.getElementById('shareBtn_fb').onclick = function() {
+            FB.ui({method: 'share', display: 'popup', href: 'https://projects.nj.com/investigations/for-a-girl/'}, function(response){});
+        }
+    </script>
+</header>

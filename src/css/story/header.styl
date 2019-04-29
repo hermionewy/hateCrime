@@ -1,0 +1,52 @@
+header
+  z-index 3000
+  position fixed
+  top 0
+  left 0
+  width 100%
+  padding 0.4rem
+  background-color $black
+
+  a
+    border-bottom 0px
+
+  span.logo
+    width 20rem
+    & svg
+      fill white
+      display inline-block
+      max-width 60px
+      height auto
+      +mq('bp-3')
+        max-width 60px
+      +mq('bp-4')
+        max-width 100px
+
+.uof_img
+  width 10rem
+  display inline-block
+  +mq('bp-4')
+    width 12rem
+  +mq('bp-7')
+    width 14rem
+    //max-width 60px
+.social_span
+  position absolute
+  right 1rem
+  margin-top 0.5rem
+
+.social_logo svg
+  display inline-block
+  stroke #fff
+  margin-right 0.5rem
+  max-width 15px
+  height auto
+  +mq('bp-4')
+    max-width 20px
+  //margin-top 0.2rem
+  &:hover
+    stroke $fp_red
+
+
+
+

@@ -1,0 +1,46 @@
+#tooltip
+  position absolute
+  top 0px
+  left 0px
+  opacity 0
+  width 300px
+  min-height 20px
+  background-color white
+  font-family Arial, "Helvetica Neue", Helvetica, sans-serif
+  border-radius 4px
+  pointer-events: none;
+  opacity 0
+  box-shadow: 1px 1px 5px 1px #aaa;
+  padding 0.2rem
+
+  &:after
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 6px white
+    border-left: solid 6px transparent;
+    border-right: solid 6px transparent;
+  &.active
+    transition opacity 0.75s ease-in
+    opacity 0.9
+    z-index 1000
+  p
+    padding 0.2rem 0.6rem
+    margin 0
+    +mq('bp-5')
+      set-type-size('x-small')
+    a
+      color dodgerblue
+
+.pre_election, .post_election
+  position relative
+  background-color $blue
+  width 0px
+  height 10px
+  transition width 500ms ease-in
+  margin-left 10px

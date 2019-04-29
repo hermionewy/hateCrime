@@ -1,0 +1,23 @@
+.xAxis, .yAxis
+  opacity 0
+
+.xAxis.active, .yAxis.active
+  opacity 1
+
+.xLabel, .yLabel
+  opacity 0
+
+.xLabel.active, .yLabel.active
+  opacity 1
+
+.xLabelText, .yLabelText
+  set-type-size('x-small')
+  +mq('bp-5')
+    set-type-size('small')
+    font-weight 100
+.xAxis
+  .domain
+    opacity 0
+  .tick line
+    opacity 0.1
+

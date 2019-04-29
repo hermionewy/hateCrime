@@ -1,0 +1,18 @@
+<div class="graphic">
+    <div class="graphic_outer_container sticky">
+        <div class="graphic_container" id="graphicContainer">
+
+        </div>
+    </div>
+    <div class="graphic_scrolly">
+
+        {{#each copy.scrolly}}
+        <div class="graphic_scrolly_content" id="scrolly_content_{{@index}}" data-attr="{{@index}}">
+             <p class="graphic_scrolly_content_p">
+                {{{value}}}
+             </p>
+        </div>
+         {{/each}}
+
+    </div>
+</div>
